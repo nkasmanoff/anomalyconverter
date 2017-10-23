@@ -1,0 +1,3 @@
+In this repository is my program to solve for the various angles used in Kepler's equations, and how to convert between the three. 
+
+true anomaly, eccentric anomaly, and mean anomaly. There are 6 programs in here that given the input of what anomaly is known as well as the eccentricity of the orbit (provided these are within the proper limits!) you can convert to any of the other anomalies. 
