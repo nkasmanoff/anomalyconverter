@@ -1,3 +1,18 @@
 In this repository is my program to solve for the various angles used in Kepler's equations, and how to convert between the three. 
 
 true anomaly, eccentric anomaly, and mean anomaly. There are 6 programs in here that given the input of what anomaly is known as well as the eccentricity of the orbit (provided these are within the proper limits!) you can convert to any of the other anomalies. 
+
+
+to run:
+
+The way I did this was using ipython 
+
+first, confirm the correct version of python is being used, which is python 3.xx 
+
+next, enter ipython in the command line
+
+then once in the ipython menu, enter "run anomaly_converter.py", and you can begin.
+
+To test any of the various functions, enter now in the ipython command line 
+
+<anomaly1>2<anomaly2>(<angle in degrees>,<eccentricity>) and the output will be the converted anomaly, provided it is within the proper limits! 
