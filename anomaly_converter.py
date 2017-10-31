@@ -70,7 +70,7 @@ def E2M(E,e):
         elif e==0:
             print("This is a circular orbit.")
             E=np.deg2rad(E)
-            v=E
+            M=E
         elif e>1: 
             print("Sorry, the eccentricity of an orbit is between 0 and 1!") 
         elif e==1: 
