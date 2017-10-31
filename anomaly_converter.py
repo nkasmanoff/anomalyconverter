@@ -95,7 +95,7 @@ def M2E(M,e):
             E=M #true for circular orbits...
             if E<0:
                 E=E+2*np.pi
-            return np.rad2deg(v)
+            return np.rad2deg(E)
         elif e>1: 
             print("Sorry, the eccentricity of an orbit is between 0 and 1!") 
         elif e==1:
